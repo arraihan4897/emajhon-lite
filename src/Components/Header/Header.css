@@ -1,0 +1,31 @@
+
+.Headnav{
+ overflow: hidden !important;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  height:80px;
+
+  
+ 
+}
+.Headnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.Headnav a:hover{
+    font-size:18px;
+    padding: 12px 14px;
+    color: orange;
+    
+
+}
+

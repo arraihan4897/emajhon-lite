@@ -1,0 +1,47 @@
+.proContainer{
+height:508px ;
+width:300px;
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: -10px 10px 10px rgba(75, 73, 73, 0.4);
+margin:20px ;
+position: relative;
+}
+.proContainer img{
+    height: 286px;
+    width: 286px;
+    box-shadow: -5px 10px 10px rgba(75, 73, 73, 0.2);
+    padding-top: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px;
+    border-radius: 8px;
+}
+.proContainer button{
+    color :aliceblue;
+    font-size: large;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-image:linear-gradient(rgb(243, 51, 83),rgb(242, 123, 123)) ;
+    border-radius: 0px 0px 8px 8px ;
+    position: absolute;
+    bottom: 0;
+}
+.proContainer button:hover{
+    background-image:linear-gradient(rgb(242, 123, 123),rgb(243, 51, 83)) ;
+}
+.productInfo{
+    margin: 12px;
+}
+.productInfo p, h1{
+margin: 0;
+padding: 0;
+}
+ .text{font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    }
