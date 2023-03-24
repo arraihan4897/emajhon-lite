@@ -1,7 +1,7 @@
 .Cart-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 80px;
 }
 .productContainer{
@@ -15,7 +15,6 @@
 }
 .summeryContainer{
     margin-right: 10px;
-    background-color: rgb(255, 211, 157);
     position: static;
         position: fixed;
         border: 1px solid rgb(0, 0, 48);
@@ -23,11 +22,14 @@
         background-color: rgba(255,200,200,0.5);
         margin-bottom: 80px;  
         height: 500px;
+        top: 80;
         bottom: 0;
         width: 200px;
         left: 80;
         right: 0;
-        text-align:center;      
+        text-align:center;   
+        box-shadow: -10px 10px 10px rgba(75, 73, 73, 0.4);
+   
 }
 .btn{
     padding: 10px;
@@ -36,8 +38,68 @@
     margin-right: 5px;
     margin-bottom: 15px;
     width: 90%;
-    background-image:linear-gradient(rgb(243, 51, 83),rgb(242, 123, 123)) ;
+    background-image:linear-gradient(rgb(174, 7, 7),rgb(250, 0, 0)) ;
     color: aliceblue;
     border: 1px solid black;
     border-radius: 10px;
+}
+.r-btn{
+    padding: 10px;
+    font-size: large;
+    margin-left: 5px ;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    width: 90%;
+    background-image:linear-gradient(rgb(75, 206, 4),rgb(33, 100, 9)) ;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 580px) {
+    .Cart-container{
+        display: block !important;
+        margin-top: 20px;
+        margin-left: 0px;
+      
+    }
+    .productContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .summeryContainer{
+        margin-right: 0px;
+        position: static;
+            position: fixed;
+            border: 1px solid rgb(0, 0, 48);
+            border-radius: 10px;
+            background-color: rgba(255,200,200,0.5);
+            margin-bottom: 55px;  
+            height: 500px;
+            bottom:0;
+            width: 130px;
+            left:80;
+           
+       
+    }
+    
+        
+}
+@media (min-width: 581px) and (max-width: 767px){
+    .productContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .Cart-container{
+        display: block ;}
+        .summeryContainer{
+            top:20;
+            height: 475px;
+        }
+
+        
 }

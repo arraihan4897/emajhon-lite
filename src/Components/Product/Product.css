@@ -6,6 +6,8 @@ border-radius: 10px;
 box-shadow: -10px 10px 10px rgba(75, 73, 73, 0.4);
 margin:20px ;
 position: relative;
+background-color: rgba(255,200,200,0.5);
+
 }
 .proContainer img{
     height: 286px;
@@ -23,7 +25,7 @@ position: relative;
     width: 100%;
     padding: 10px;
     border: none;
-    background-image:linear-gradient(rgb(243, 51, 83),rgb(242, 123, 123)) ;
+    background-image:linear-gradient(rgb(166, 5, 32),rgb(238, 74, 74)) ;
     border-radius: 0px 0px 8px 8px ;
     position: absolute;
     bottom: 0;
@@ -45,3 +47,5 @@ padding: 0;
     line-height: 25px;
     letter-spacing: 0.0015em;
     }
+
+    
